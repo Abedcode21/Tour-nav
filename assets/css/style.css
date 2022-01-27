@@ -10,3 +10,30 @@ body{
     text-transform:none;
     letter-spacing: 3px;
 }
+#hnav {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: whitesmoke;
+}
+
+#hnav a {
+    text-decoration:none;
+    font-size: 20px;
+    color:black;
+}
+
+#hnav a.active {
+    border-bottom: solid 2px;
+}
+
+#hnav a:hover {
+    background-color: rgb(2, 36, 2);
+    color: whitesmoke;
+}
+ 
+
+
+
