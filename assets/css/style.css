@@ -35,6 +35,15 @@ body{
     color: whitesmoke;
 }
  
+#container {
+    position: relative;
+    overflow: hidden;
+}
+
+#photo-text {
+    color: whitesmoke;
+}
+
 #guide-image {
     height: 500px;
     width: 100%;
@@ -42,5 +51,16 @@ body{
     background-size: cover;
 }
 
-
+#photo-text {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    width: 400px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    bottom: 30px;
+    right:150px;
+    position: absolute;
+}
 
