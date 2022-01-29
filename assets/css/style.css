@@ -111,7 +111,6 @@ figcaption {
 /* Sites that may interest you */
 
 h3 {
-    /* border-bottom: 2px solid rgb(187, 126, 126); */
     background-color: rgb(109, 205, 235);
 }
 
@@ -134,7 +133,6 @@ h3 {
 }
 
 .interests {
-    /* background: url("../images/travel-servece.jpg"); */
     background-color:#f6f4f2;
     width: 20%;
     padding-top: 4px;
@@ -150,5 +148,28 @@ h3 {
 
 .interests a:hover {
     background-color: rgb(109, 205, 235);
-    color:black;
+    color:rgb(240, 208, 208);
+}
+
+/* Follow Us */
+
+footer {
+    height: 160px;
+    background-color:lightgray;
+}
+
+.follow-us {
+    text-align: center ;
+}
+
+.follow-us > li {
+    display: inline;
+}
+
+.follow-us img {
+    padding: 25px;
+}
+
+.follow-us a {
+    text-decoration: none;
 }
