@@ -151,6 +151,38 @@ h3 {
     color:rgb(240, 208, 208);
 }
 
+/* contact */
+
+#contact {
+    margin-top: 40px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+#in-contact {
+    background-color:#fafafa;;
+}
+
+#contact div {
+    margin-top: 20px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+button {
+    height: 30px;
+    width: 300px;
+}
+textarea {
+    height: 110px;
+    width: 85%;
+}
+
 /* Follow Us */
 
 footer {
@@ -173,3 +205,77 @@ footer {
 .follow-us a {
     text-decoration: none;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    #container {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #container {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #hbar {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #photo-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
