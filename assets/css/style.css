@@ -168,17 +168,17 @@ h3 {
     margin-top: 20px;
 }
 
-input {
+#contact input {
     height: 30px;
     width: 300px;
     font-size: 18px;
     margin-top: 20px;
 }
-button {
+#contact button {
     height: 30px;
     width: 300px;
 }
-textarea {
+#contact textarea {
     height: 110px;
     width: 85%;
     font-size: 18px ;
