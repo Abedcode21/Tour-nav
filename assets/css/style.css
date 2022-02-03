@@ -49,17 +49,19 @@ body{
     width: 100%;
     background: url('../images/guide-imge.jpg') no-repeat center center;
     background-size: cover;
+    filter:contrast(70%); 
 }
 
 #photo-text {
+    background-color: #474747;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     width: 400px;
-    height: 100px;
+    height: 150px;
     padding-top: 30px;
     padding-left: 10px;
     text-transform: uppercase;
-    bottom: 30px;
+    bottom: 25px;
     right:150px;
     position: absolute;
 }
