@@ -112,7 +112,7 @@ body{
 
 /* Sites that may interest you */
 
-h2 {
+.interests h2 {
     background-color: rgb(109, 205, 235);
 }
 
