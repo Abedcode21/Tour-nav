@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
-*{
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap') */
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -229,7 +230,7 @@ footer {
 #place-list img {
    margin-top: 20px;
     height: 300px;
-    width: 30%px;
+    width: 30%;
     border: 2px solid rgb(248, 150, 150);
 }
 
