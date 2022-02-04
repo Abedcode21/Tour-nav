@@ -108,12 +108,13 @@ body{
 
 /* Sites that may interest you */
 
-.interests h2 {
+.interests h3 {
     background-color: rgb(109, 205, 235);
+    margin-top: 0px;
 }
 
 #sites{
-    height: 250px;
+    height: 270px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -123,6 +124,7 @@ body{
 
 .list-sites  {
     color: rgb(230, 31, 31);
+   
 }
 
 .list-sites > li {
