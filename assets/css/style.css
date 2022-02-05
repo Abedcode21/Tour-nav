@@ -160,10 +160,10 @@ h2 {
     text-align: center;
 }
 
-.list-sites  {
+/* .list-sites  {
     color: rgb(230, 31, 31);
    
-}
+} */
 
 .list-sites > li {
     list-style: none;
@@ -172,7 +172,7 @@ h2 {
 
 .interests {
     /* background-color:#f6f4f2; */
-    background-color: rgba(17, 16, 16, 0.877);
+    background-color: rgba(0, 0, 0, 0.877);
     width: 20%;
     padding-top: 4px;
     padding-bottom: 10px; 
