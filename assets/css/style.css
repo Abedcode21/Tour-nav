@@ -201,21 +201,20 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    
 }
 
 .contact {
     /* border: #000000 2px solid; */
     width: 33%;
-    
-}
 
+}
 .contact h3 {
     width: 200px;
     margin-left: 150px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-
 } 
     
 
@@ -228,8 +227,6 @@ h2 {
         background-color: rgb(212, 230, 241);
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 18px;
-        
-        
     }
     
     #join-us button {
@@ -247,13 +244,7 @@ h2 {
 #visit-us iframe {
     height: 210px;
     width: 90%;
-    
-  
 }
-
-/* #contact-us h4 {
-    text-align:center;
-} */
 
 
 #follow-us {
@@ -262,107 +253,19 @@ h2 {
 }
 
 #follow-us ul li {
-    display: inline;
-    
+    display: inline;    
 }
 
 #follow-us img {
-    
     padding-left: 40px;
     padding-top: 5px;
 }
 
 #follow-us a {
     text-decoration: none;
-
-
-
-/* contact */
-
-/* #contact {
-    height: 350px;
-    width: 100%;
-    margin-top: 40px;
-    text-align: center;
-    background-color: rgb(212, 230, 241);
 }
 
 
-#in-contact {  
-    width: 33%;
-    float: left;
-    margin-top: 25px;
-}
-
-#in-contact2 {  
-    width: 33%;
-    margin-top: 25px;
-    width: 33%;
-    margin: 0 auto;
-    
-}
-
-#contact input {
-    height: 30px;
-    width: 200px;
-    font-size: 18px;
-    display: block;
-    margin-left: 50px;
-    
-    border: 0;
-    border-bottom:  solid black;
-    background-color: rgb(212, 230, 241);
-    font-family: 'Roboto Condensed', sans-serif;
-    
-}
-
-#contact button {
-    height: 40px;
-    width: 200px;
-    display: block;
-    margin-left: 50px;
-    margin-top: 25px;
-    background-color: #000000;
-    color: whitesmoke;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-}
-
-#contact h5 {
-    height: 40px;
-    width: 200px;
-    display: block;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    color: #000000;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-} */
-
-
-/* Follow Us */
-
-/* footer {
-    height: 160px;
-    background-color:lightgray;
-}
-
-.follow-us {
-    text-align: center ;
-}
-
-.follow-us > li {
-    display: inline;
-}
-
-.follow-us img {
-    padding: 25px;
-}
-
-.follow-us a {
-    text-decoration: none;
-} */
 
 /* places page two*/
 #place-list {
