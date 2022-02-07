@@ -264,6 +264,24 @@ h2 {
     text-decoration: none;
 }
 
+/* places page two*/
+
+#london h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+#wheel-image {
+    height: 500px;
+    width: 100%;
+    background: url("/assets/images/place-wheel.jpg") no-repeat center center;
+    background-size: cover;
+    filter: brightness(40%);
+    
+}
+
 
  @media screen and (max-width: 1200px) {
 
@@ -395,8 +413,6 @@ footer {
     margin-left: 130%;
 }
 
-
-
 #follow-us ul li {
    padding-left: 150%;
 }
@@ -408,8 +424,11 @@ footer {
 
 
 
-/* places page two*/
-#place-list {
+
+
+
+
+/* #place-list {
     height: 2900px;
     width: 98%;
     text-align: center;
@@ -442,4 +461,4 @@ footer {
    text-align: left;
 }
 
-
+ */
