@@ -265,9 +265,9 @@ h2 {
 }
 
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 1200px) {
+
      body {
-       /* background-color: bisque; */
        text-align: left;
      }
 
