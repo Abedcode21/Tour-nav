@@ -133,7 +133,6 @@ h2 {
 #suggest a {
     text-decoration: none;
     color: rgb(76, 25, 196);
-    
 }
 
 #suggest figcaption:hover {
@@ -266,30 +265,28 @@ h2 {
 }
 
 
-@media screen and (max-width: 1200px) {
-    header {
-        width: 60%;
-        height: 200px;
+ @media screen and (max-width: 600px) {
+     body {
+       background-color: bisque;
+       text-align: left;
+     }
+
+    header {     
+        height: 130px;
         font-size: 15px;
-       
      }
 
-     header img {
-         padding-top: 20px;
+     /* header img {
          
-     }
+     } */
 
-     #hnav {
-        display: block;
-        background-color: white;
-        padding-left: 45%;
-        
-     }
+     /* #hnav {
+       
+     } */
+
      #hnav a {
-        
          font-size: 20px;
-         padding-right: 3px;
-
+         padding-right: 46px;
      }
 
      #hnav a.active {
@@ -298,8 +295,7 @@ h2 {
 
 #guide-image {
     height: 200px;
-    width: 250px;
-    border: #000000 2px solid;
+    width: 100%
 }
 
 #photo-text {
@@ -307,24 +303,36 @@ h2 {
 }
 
 h2 {
-    text-align: left;
-    font-size: 15px;
-    width: 70%;
+    font-size: 20px;
+    width: 100%;
 }
+ 
 
 /*Suggested Places*/
 
 #suggest {
-    height: 1000px;
-    width: 60%;
+    width: 100%;
+    height: 1350px;
     display: block;
+   
 }
 
 #suggest figure {
     margin: 0px;
-    margin-left: 10px;
     margin-bottom: 20px;
+    width: 100%;
 }
+
+#suggest img {
+    height: auto;
+    width: 100%;
+}
+
+#suggest figcaption {
+    width: 100%;
+    background-color: rgb(212, 230, 241);
+    color: rgb(8, 5, 5);
+    font-size: 15px;
        
 
 /* Sites that may interest you */
@@ -334,28 +342,28 @@ h2 {
     margin: 0;
     letter-spacing: 8px;
     text-align: center;
-    border-bottom: #000000 2px solid; */
-}
+    border-bottom: #000000 2px solid;
+}*/
 
 
-#sites{
+/* #sites{
     height: 1500px;
     width: 380%;
     display: block;
-}
+} */
 
 /* .list-sites  {
     color: rgb(230, 31, 31);
    
 } */
 
-.list-sites > li {
+/* .list-sites > li {
     margin: 0px;
     
-   
+} */
     /* list-style: none;
     padding: 10px 0 10px 0; */
-}
+
 
 /* .interests { */
     /* background-color:#f6f4f2; */
@@ -371,14 +379,13 @@ h2 {
      text-decoration: none;
      text-transform: uppercase;
      font-size: 15px;
-     letter-spacing: 3px;
+     letter-spacing: 3px; */
+} 
+
+/* .interests a:hover {
+    border-bottom: 2px solid;
 } */
 
-.interests a:hover {
-    border-bottom: 2px solid;
-}
-
-}
 
 
 
