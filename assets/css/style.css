@@ -350,7 +350,7 @@ h2 {
 } 
 
 footer {
-    height: 1150px;
+    height: 1250px;
     display: block;
     
 }
@@ -361,6 +361,7 @@ footer {
 
 #contact-us h3 {
     margin-left: 66%;
+    padding-top: 30px;
 }
 
 #join-us input {
@@ -381,14 +382,20 @@ footer {
 }
 
 #visit-us h3 {
-    margin-left: 66%;
+    margin-left: 60%;
 
 }
 
 
-#follow-us {
-    margin-left: -65px;
+#follow-us h3 {
+    margin-left: 125%;
 }
+
+#follow-us img {
+    margin-left: 130%;
+}
+
+
 
 #follow-us ul li {
    padding-left: 150%;
