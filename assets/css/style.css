@@ -267,26 +267,28 @@ h2 {
 /* places page two*/
 
 #london {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    /* border:#000000 2px solid; */
+    border:#000000 2px solid;
     
 }
 
 .london-eye > h1 {
+   
     /* text-align: center; */
 }
 
 .london-eye > p {
     text-align: left;
-   
-    
+    font-family: 'Roboto Condensed', sans-serif;
+    border: #000000 2px solid;
+    text-align: justify;
     
 }
 .london-eye {
     float: left;
     height: 300px;
-    width: 500px;
+    width: 600px;
     margin-left: 10%;
     
 }
