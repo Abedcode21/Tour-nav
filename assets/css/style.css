@@ -283,7 +283,6 @@ h2 {
 .london-eye p {
     text-align: left;
     font-family: 'Lora', serif;
-    /* border: #000000 2px solid; */
     text-align: left;   
 }
 
@@ -311,7 +310,6 @@ h2 {
 }
 
  .info li {
-     text-decoration: none;
      list-style-type: none;
      display: inline;   
  }
@@ -327,6 +325,8 @@ h2 {
 .info a:hover {
     border-bottom: black 2px solid;
 }
+
+
 
  @media screen and (max-width: 1200px) {
 
