@@ -266,6 +266,8 @@ h2 {
 
 /* places page two*/
 
+/* London eye */
+
 #london {
     height: 360px;
     width: 100%;
@@ -275,14 +277,7 @@ h2 {
 }
 
 #london h2 {
-    /* font-size: 25px; */
     margin-top: 30px;
-}
-
-.london h1 {
-
-   
-    /* text-align: center; */
 }
 
 .london-eye p {
@@ -308,26 +303,21 @@ h2 {
     border-radius: 10%;
     margin-top: 20px;
     margin-right: 10%;
-    /* filter: brightness(40%); */
 }
+
 .info {
     font-size: 20px;
     background-color: rgb(212, 230, 241);
-
-    
 }
+
  .info li {
      text-decoration: none;
      list-style-type: none;
      display: inline;   
-     /* background-color: rgb(212, 230, 241); */
- 
  }
 
  .info a {
     text-decoration: none;
-    /* background-color: rgb(212, 230, 241); */
-
     color: rgb(63, 26, 26);
     font-size:18px;
     margin-right:50px;
