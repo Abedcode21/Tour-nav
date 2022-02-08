@@ -283,7 +283,7 @@ h2 {
     float: left;
     height: 300px;
     width: 500px;
-    margin-left: 20%;
+    margin-left: 10%;
     
 }
 
@@ -292,18 +292,17 @@ h2 {
 }
 
 #wheel-image {
+
     float:right;
     height: 300px;
     width: 350px;
     background: url("/assets/images/place-wheel.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 10%;
-    margin-right: 20%;
+    margin-top: 20px;
+    margin-right: 10%;
     /* filter: brightness(40%); */
 }
-
-
-
 
 
  @media screen and (max-width: 1200px) {
