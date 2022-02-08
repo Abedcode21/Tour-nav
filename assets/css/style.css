@@ -266,21 +266,44 @@ h2 {
 
 /* places page two*/
 
-#london h1 {
-    padding-top: 20px;
-    padding-left: 20px;
-    color: rgb(255, 255, 255);
+#london {
+    height: 300px;
+    width: 100%;
+    /* border:#000000 2px solid; */
+    
+}
 
+#london > h1 > p {
+    text-align: left;
+    height: 100px;
+    
+    
+}
+.london-wheell {
+    float: left;
+    height: 300px;
+    width: 500px;
+    margin-left: 20%;
+    
+}
+
+.info {
+    
 }
 
 #wheel-image {
-    height: 500px;
-    width: 100%;
+    float:right;
+    height: 300px;
+    width: 350px;
     background: url("/assets/images/place-wheel.jpg") no-repeat center center;
     background-size: cover;
-    filter: brightness(40%);
-    
+    border-radius: 10%;
+    margin-right: 20%;
+    /* filter: brightness(40%); */
 }
+
+
+
 
 
  @media screen and (max-width: 1200px) {
