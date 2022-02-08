@@ -13,25 +13,6 @@ h2 {
     text-align: center;
 }
 
-
-/* #sign-in {
-    float:right;
-    margin-top: 43px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-#sign-in a {
-    font-size: 25px;
-    text-decoration:none;
-    color:#000000;
-    letter-spacing: 10px;
-}
-
-#sign-in a:hover {
-    border-bottom: 2px solid black;
-} */
-
 #hnav {
 
     margin-top: 1px;
@@ -64,10 +45,7 @@ h2 {
     overflow: hidden;
 }
 
-/* #photo-text {
-    color: whitesmoke ;
-} */
-
+/* #photo-text */
 #photo-text h1 {
     text-align: center;
 }
@@ -124,9 +102,7 @@ h2 {
     color: rgb(8, 5, 5);
     /* font-family: 'Times New Roman', Times, serif; */
     font-size: 15px;
-    /* padding: 3px; */
-    /* text-align: center; */
-    
+   
    
 }
 
