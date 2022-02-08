@@ -273,9 +273,13 @@ h2 {
     
 }
 
-#london > h1 > p {
+.london-eye > h1 {
+    /* text-align: center; */
+}
+
+.london-eye > p {
     text-align: left;
-    height: 100px;
+   
     
     
 }
