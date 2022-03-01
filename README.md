@@ -31,13 +31,16 @@ __Tour Recommandations Section__
 
  - This section has the most useful links that a tourist can use regarding travel agencies, hotels, airlines, and car rental agencies.
 
- <img src="../workspace/Tournav/assets/images/Screenshot10.png">
+ <img src="/images/Screenshot10.png">
 
   __Footer__
 
   - This footer have four options to comunicate with Tournav page (Join us, Visit us, contact us and follow us).
+  ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-  <img src="/workspace/Tournav/assets/images/footer.png">
+  <!-- ![image] (https://github.com/Abedcode21/testpage/blob/main/assets/images/Screenshot10.png) -->
+  <!-- ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png) -->
+
 
    __Places__
 
