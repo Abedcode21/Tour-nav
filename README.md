@@ -38,7 +38,7 @@ __Tour Recommandations Section__
   - This footer have four options to comunicate with Tournav page (Join us, Visit us, contact us and follow us).
   ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-  <!-- ![image] (https://github.com/Abedcode21/testpage/blob/main/assets/images/Screenshot10.png) -->
+  ![image](https://github.com/Abedcode21/testpage/blob/main/assets/images/Screenshot10.png)
   <!-- ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png) -->
 
 
