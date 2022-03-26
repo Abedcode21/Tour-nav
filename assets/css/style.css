@@ -304,22 +304,21 @@ h2 {
 
 
 
- @media screen and (max-width: 1280px) {
+ @media screen and (max-width: 1300px) {
 
 #suggest {
    height: 160px;
 } 
 
-
 #suggest img {
     height: 114px;
     width: 200px;
-    margin-left: -25px;
+    margin-left: -50px;
 }
     
 #suggest figcaption {
     width: 200px;
-    margin-left: -25px;
+    margin-left: -50px;
 }
 
  #follow-us img {
