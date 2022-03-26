@@ -304,7 +304,7 @@ h2 {
 
 
 
- @media screen and (max-width: 1300px) {
+ @media screen and (max-width: 1300px) and (max-width: 900px) {
 
 #suggest {
    height: 160px;
@@ -321,10 +321,6 @@ h2 {
     margin-left: -25px;
 }
 
-/* #Travel-Agencies h3 {
-
-} */
-
 .interests{
     width: 100%;
     margin-left: 15px;
@@ -335,14 +331,100 @@ h2 {
     margin-left: 20px;
 }
 /* places screen */
-.part-place{
+.part-place {
     width: 500px;
 }
-.info{
+.info {
     width: 480px;
 }
 
-.info a{
+.info a {
     font-size: 13px;
 }
+ }
+
+ @media screen and (max-width: 800px) {
+    
+     /* #hnav {
+         width:800px;
+     }
+     #container {
+        width: 800px;
+
+     }
+     #guide-image{
+         width: 800px;
+     } */
+h2 {
+    font-size: 30px;
+}
+     #suggest {
+         height: 1950px;
+         width: 100%;
+         display: block;
+       
+     }
+
+     #suggest img {
+         height: 337px;
+         width: 600px;
+         margin-left: 50px;
+     }
+
+     #suggest figcaption {
+        font-size: 25px;
+        width: 600px;
+        margin-left: 50px;
+     }
+     #sites {
+         height: 1500px;
+         display: block;
+     }
+
+     .interests {
+        width: 600px;
+        margin-left: 95px;
+        text-align: center;
+        font-size: 25px;
+     }
+     .interests a {
+        font-size: 25px;
+     }
+
+     footer{
+         height: 1000px;
+         display: block;
+         width: 780px;
+         padding-top: 20px;
+     }
+      h3 {
+        font-size: 200px;
+     }
+     #join-us {
+         margin-left: 50%;
+         width: 600px;
+        
+     }
+     #visit-us {
+        margin-left: 50%;
+        padding-top: 20px;
+   
+     }
+     #visit-us iframe {
+         width: 600px;
+         height: 300px;
+         margin-left: -15%;
+         
+
+     }
+
+     #contact-us{
+        padding-top: 20px;
+        margin-left: 50%;
+      
+     }
+     #follow-us{
+        margin-left: 50%;
+     }
+
  }
