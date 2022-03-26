@@ -321,8 +321,17 @@ h2 {
     margin-left: -25px;
 }
 
+/* #Travel-Agencies h3 {
+
+} */
+
+.interests{
+    width: 100%;
+    margin-left: 15px;
+}
+
  #follow-us img {
-    margin-left: -15px;
+    margin-left: -30px;
 }
 /* places screen */
 .part-place{
