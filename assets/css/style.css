@@ -304,7 +304,7 @@ h2 {
 
 
 
- @media screen and (max-width: 1300px) and (max-width: 900px) {
+ @media screen and (max-width: 1300px) and (min-width: 900px) {
 
 #suggest {
    height: 160px;
@@ -345,19 +345,9 @@ h2 {
 
  @media screen and (max-width: 800px) {
     
-     /* #hnav {
-         width:800px;
-     }
-     #container {
-        width: 800px;
-
-     }
-     #guide-image{
-         width: 800px;
-     } */
-h2 {
+    h2 {
     font-size: 30px;
-}
+    }
      #suggest {
          height: 1950px;
          width: 100%;
@@ -397,9 +387,7 @@ h2 {
          width: 780px;
          padding-top: 20px;
      }
-      /* h3 {
-        font-size: 20px;
-     } */
+   
      #join-us {
          margin-left: 50%;
          width: 600px;
@@ -414,8 +402,6 @@ h2 {
          width: 600px;
          height: 300px;
          margin-left: -15%;
-         
-
      }
 
      #contact-us {
