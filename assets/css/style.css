@@ -397,9 +397,9 @@ h2 {
          width: 780px;
          padding-top: 20px;
      }
-      h3 {
-        font-size: 200px;
-     }
+      /* h3 {
+        font-size: 20px;
+     } */
      #join-us {
          margin-left: 50%;
          width: 600px;
@@ -418,13 +418,27 @@ h2 {
 
      }
 
-     #contact-us{
+     #contact-us {
         padding-top: 20px;
         margin-left: 50%;
-      
      }
-     #follow-us{
+
+     .contact-m-p {
+        font-size: 20px;
+        margin-left: 140%;
+     }
+     
+     #follow-us {
         margin-left: 50%;
+     }
+     #follow-us ul {
+         display: flex;
+         justify-content: center;
+         margin-left: 190px;
+     }
+
+     #follow-us a {
+         margin-left: 30px;
      }
 
  }
