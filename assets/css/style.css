@@ -505,13 +505,13 @@ h2 {
 
 }
 #visit-us iframe {
-    width: 260px;
+    width: 250px;
     height: 150px;
     margin-left: 95px;
 }
 
  #contact-us {
-    margin-left: -80px;
+    margin-left: -85px;
     padding-top: 20px;
 }
 
@@ -530,7 +530,7 @@ h2 {
 }
 
 #follow-us a {
-    margin-left: -10px;
+    margin-left: -8px;
 }  
 
     /* places screen */
