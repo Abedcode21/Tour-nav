@@ -14,7 +14,6 @@ h2 {
 }
 
 #hnav {
-
     margin-top: 1px;
     margin-bottom: 5px;
     display: flex;
@@ -426,6 +425,22 @@ h2 {
      #follow-us a {
          margin-left: 30px;
      }
+     /* places screen */
+     .places {
+        height: 700px;
+        width: 100%;
+        margin-top: 10px;
+        padding-bottom: 40px;
+        background-color:whitesmoke;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+.image-place {
+   margin-right: 80px;
+}
+
  }
 
  /* On screens that are 350px or less*/
