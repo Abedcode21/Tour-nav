@@ -57,7 +57,9 @@ HTML
 CSS
 - Home page
 <br>
-  No errors were found when passing through the official [(Jigsaw)](https://validator.w3.org/nu/?doc=https://abedcode21.github.io/Tournav)
+  No errors were found when passing through the official.
+
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 ![image](assets/images/rdme-css-validator-p1.png)
 
