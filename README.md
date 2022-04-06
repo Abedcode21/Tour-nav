@@ -63,9 +63,13 @@ CSS
 
 - Places page
 <br>
-  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+  [Tournav](https://abedcode21.github.io/Tournav)
+
 
 ![image](assets/images/rdme-css-validator-p2.png)
+
 
 ## Credits
 
