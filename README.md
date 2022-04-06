@@ -1,7 +1,7 @@
 # Tournav
 Tournav is a site that give the tourists the most beautiful places where they can enjoy and spend their time. Also Tournav gives recommendations regarding hotels, travel agencies, and airlines so the tourists can have the best experience and satisfaction in their journey.
 
-<img src="/workspace/Tournav/assets/images/Screenshot.jpg">
+<img src="assets/images/Screenshot.jpg">
 
 # Features
 
@@ -55,7 +55,17 @@ __Tour Recommandations Section__
 HTML
 - No errors were returned when passing through the official W3C validator.
 CSS
-- No errors were found when passing through the official (Jigsaw) validator.
+- Home page
+<br>
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![image](assets/images/rdme-css-validator-p1.png)
+
+- Places page
+<br>
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+![image](assets/images/rdme-css-validator-p2.png)
 
 ## Credits
 

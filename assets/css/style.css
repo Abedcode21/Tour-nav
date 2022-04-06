@@ -302,8 +302,7 @@ h2 {
 }
 
 
-
- @media screen and (max-width: 1300px) and (min-width: 900px) {
+@media screen and (max-width: 1300px) and (min-width: 900px) {
 
 #suggest {
    height: 160px;
