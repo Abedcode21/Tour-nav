@@ -61,6 +61,8 @@ CSS
 
 ![image](assets/images/rdme-css-validator-p1.png)
 
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
 - Places page
 <br>
   No errors were found when passing through the official [Tournav](https://jigsaw.w3.org)
