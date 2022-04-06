@@ -63,7 +63,7 @@ CSS
 
 - Places page
 <br>
-  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+  No errors were found when passing through the official [validator](https://jigsaw.w3.org)
 
   [Tournav](https://abedcode21.github.io/Tournav)
 
