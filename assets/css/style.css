@@ -469,7 +469,7 @@ h2 {
 #suggest {
     height: 1020px;
     display: block;
-    margin-left: ظ10%;
+    /* margin-left: 10%; */
 }
 
 #suggest img {
@@ -486,13 +486,13 @@ h2 {
     height: 1150px;
     display: block;
     text-align: left;
-    width: 80%;
+    width: 100%;
    
 }
 
 .interests {
    width: 100%;
-   margin-left: 15%;
+   /* margin-left: 15%; */
 }
 
  footer {
