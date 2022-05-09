@@ -504,23 +504,23 @@ h2 {
 }
 
 #join-us {
-    margin-left: -80px;
+    margin-left: -50px;
     width:100%;
    
 }
 #visit-us {
-   margin-left: -80px;
+   margin-left: -50px;
    padding-top: 20px;
 
 }
 #visit-us iframe {
-    width: 250px;
+    width: 350px;
     height: 150px;
-    margin-left: 135px;
+    margin-left: 75px;
 }
 
  #contact-us {
-    margin-left: -85px;
+    margin-left: -50px;
     padding-top: 20px;
 }
 
@@ -530,7 +530,7 @@ h2 {
 }
 
 #follow-us {
-    margin-left: -70px;
+    margin-left: -50px;
 }
 #follow-us ul {
     display: flex;
