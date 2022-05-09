@@ -339,7 +339,7 @@ h2 {
 }
  }
 
- @media screen and (max-width: 800px) and (min-width: 399) {
+ @media screen and (max-width: 800px) and (min-width: 450) {
     
     h2 {
     font-size: 30px;
@@ -437,7 +437,7 @@ h2 {
  }
 
  /* On screens that are 350px or less*/
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 420px) {
     #hnav {
         width: 85%;
     }
