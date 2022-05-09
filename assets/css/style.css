@@ -341,7 +341,7 @@ h2 {
 }
  }
 
- @media screen and (max-width: 800px) and (min-width: 37opx) {
+ @media screen and (max-width: 800px) and (min-width: 377px) {
     
     h2 {
     font-size: 30px;
