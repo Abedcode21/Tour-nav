@@ -100,9 +100,7 @@ h2 {
     /* background-color: rgb(202, 198, 198); */
     color: rgb(8, 5, 5);
     /* font-family: 'Times New Roman', Times, serif; */
-    font-size: 15px;
-   
-   
+    font-size: 15px;   
 }
 
 #suggest a {
@@ -469,9 +467,19 @@ h2 {
     font-size: 100%
     }
 #suggest {
-    height: 800px;
+    height: 1020px;
     display: block;
-    margin-left: 5%;
+    margin-left: ظ10%;
+}
+
+#suggest img {
+    height: 170px;
+    width: 303px;
+}
+
+#suggest figcaption {
+    width: 303px;
+    font-size: 15px;   
 }
 
  #sites {
