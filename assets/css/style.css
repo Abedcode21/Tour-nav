@@ -439,7 +439,7 @@ h2 {
  }
 
  /* On screens that are 350px or less*/
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 376px) {
     #hnav {
         width: 85%;
     }
