@@ -7,91 +7,78 @@
     <meta name="description" content="tournav should gives an idea of the beautiful places in the world">
     <meta name="keywords" content="tour nav, tour list, travel, places">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet"> -->
-
     <title>Tournav</title>
 </head>
 <body>
     <header>
+        <!-- Logo and Navbar -->
         <img src="assets/images/tourlogoo.png" alt="tournav-logo" style="height: 96px;  width: 201px;">
-        <div id="sign-in">
-            <!-- <a href="#">Sign in</a> -->
-        </div>
         <nav>
             <ul id="hnav">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="places.html">Places</a></li>
-                <li><a href="#join-us">Contact</a></li>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="places.html">Places</a>
+                </li>
+                <li>
+                    <a href="#join-us">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <section id="container">
+    <section id="guide-container">
         <div id="guide-image"></div>
         <div id="photo-text">
            <h1>Your guide to the best trip</h1> 
         </div>
     </section>
-        <section>
-            <h2>Tour Recommandations</h2>
+    <section>
+        <h2>Tour Recommandations</h2>
             <div id="suggest">
                 <a href="places.html#london-eye"><!--London-->
                     <figure>
-                        <!-- /assets/images/home-wheel.png -->
                         <img src="assets/images/home-wheel.jpg" alt="london-wheel">
                         <figcaption>London Eye</figcaption>
                     </figure>
                 </a>
                 <a href="places.html#grand-canyon"><!--USA-->
                     <figure>
-                        <!-- <img src="/assets/images/Grand-Canyon.jpg" alt="grand-canyon"> -->
-                        <img src="assets/images/Grand-Canyon.jpg" alt="grand-canyon">
+                        <img src="assets/images/home-grand-canyon.jpg" alt="grand-canyon">
                         <figcaption>Grand Canyon</figcaption>
                     </figure>
                 </a>
                 <a href="places.html#Venice"><!--Italy-->
                     <figure>
-                        <!-- <img src="/assets/images/Venice.jpg" alt="venice"> -->
-                        <img src="assets/images/Venice.jpg"  alt="venice">
+                        <img src="assets/images/home-venice.jpg" alt="venice">
                         <figcaption>Venice</figcaption>
                     </figure>
                 </a>
                 <a href="places.html#maldives"><!--Maldives-->
                     <figure>
-                        <!-- <img src="/assets/images/Maldives.jpg" alt="maldives"> -->
-                        <img src="assets/images/pl-maldeves.jpg"  alt="maldives">
+                        <img src="assets/images/home-maldeves.jpg" alt="maldives">
                         <figcaption>Maldives</figcaption>
                     </figure>
                 </a>  
                 <a href="places.html#louvre"><!--France-->
                     <figure>
-                        <!-- <img src="/assets/images/louvre.jpg" alt="louvre"> -->
-                        <!-- <img src="https://images.pexels.com/photos/2675266/pexels-photo-2675266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="louvre"> -->
-                        <img src="assets/images/pl-luovre.jpg"  alt="louvre">
+                        <img src="assets/images/home-luovre.jpg" alt="louvre">
                         <figcaption>Louvre</figcaption>
                     </figure>
                 </a> 
             </div>
-        </section>
-        <section>
-            <h2>Sites That May Interest you</h2>
-            <div id="sites">
+    </section>
+    <section>
+        <h2>Sites That May Interest you</h2>
+        <div id="sites">
             <div class="interests">
                 <div id="Travel-Agencies">
-                    
-                <h3><img src="assets/images/icon-country.png" style="height: 30px;  width: 30px;" alt="Travel-Agencies-icon"/> Travel Agencies </h3>
-
+                    <h3><img src="assets/images/icon-country.png" style="height: 30px;  width: 30px;" alt="Travel-Agencies-icon"/> Travel Agencies </h3>
                 </div>
-                
                 <ul class="list-sites">
                     <li>
                         <a href="https://www.expediagroup.com/home/" target="_blank" rel="noopener">Expedia Group</a>
@@ -108,7 +95,7 @@
                     <li>
                         <a href="https://www.kiwi.com/" target="_blank" rel="noopener">Kiwi</a>
                     </li>
-                </ul>
+                </ul>            
             </div>
             <div class="interests">
                 <h3><img src="assets/images/icon-airplane.png" style="height: 30px;  width: 30px;" alt="airlines-icon"/> Airlines</h3>
@@ -171,58 +158,57 @@
                 </ul>
             </div>
          </div>
-        </section>
-
-    <footer>
-            <div class="contact">
-                     <form id="join-us" > 
-                        <h3>Join Us</h3>
-                        <input type="text" id="yname" name="yname" placeholder="Full Name" required>
-                        <input type="tel" id="phone" name="phone" placeholder="Mobile" required>
-                        <input type="email" id="email" name="email" placeholder="E-mail" required>
-                        <button type="submit">Send</button>
-                     </form>
-            </div>
-            <div class="contact">
-                <div id="visit-us">
-                    <h3>Visit Us</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d610062.7739124574!2d-6.245704!3d53.32432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin%2C%20Ireland!5e0!3m2!1sen!2sat!4v1648148746766!5m2!1sen!2sat"
+    </section>
+    <footer> 
+        <div class="contact">
+            <form id="join-us" > 
+               <h3>Join Us</h3>
+               <input type="text" id="yname" name="yname" placeholder="Full Name" required>
+               <input type="tel" id="phone" name="phone" placeholder="Mobile" required>
+               <input type="email" id="email" name="email" placeholder="E-mail" required>
+               <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contact">
+            <div id="visit-us">
+                <h3>Visit Us</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d610062.7739124574!2d-6.245704!3d53.32432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin%2C%20Ireland!5e0!3m2!1sen!2sat!4v1648148746766!5m2!1sen!2sat"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="Visit us" referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                </iframe>
+            </div>
+        </div>
+        <div class="contact">
+                <div id="contact-us">
+                    <h3 class="contact-m-p">Contact Us</h3>
+                    <h4 class="contact-m-p">Email:  info@tournav.com</h4>
+                    <h4 class="contact-m-p">phone:  +4676000231</h4>  
+                </div>  
+                <div id="follow-us">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank" rel="noopener"> 
+                                <img src="assets/images/icon-facebook.png" style="height: 48px;  width: 48px;" alt="facebok"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://youtube.com" target="_blank" rel="noopener">
+                                <img src="assets/images/icon-youtube.png" style="height: 48px;  width: 48px;" alt="youtube"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank" rel="noopener">
+                                <img src="assets/images/icon-instagram.png" style="height: 48px;  width: 48px;" alt="insragram"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank" rel="noopener">
+                                <img src="assets/images/icon-twitter.png" style="height: 48px;  width: 48px;" alt="twitter"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="contact">
-                    <div id="contact-us">
-                        <h3 class="contact-m-p">Contact Us</h3>
-                        <h4 class="contact-m-p">Email:  info@tournav.com</h4>
-                        <h4 class="contact-m-p">phone:  +4676000231</h4>  
-                    </div>
-                        
-                     
-                    <div id="follow-us">
-                        <h3>Follow Us</h3>
-                        <ul>
-                            <li>
-                                <a href="http://facebook.com" target="_blank" rel="noopener"> 
-                                    <img src="assets/images/icon-facebook.png" style="height: 48px;  width: 48px;" alt="facebok"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://youtube.com" target="_blank" rel="noopener">
-                                    <img src="assets/images/icon-youtube.png" style="height: 48px;  width: 48px;" alt="youtube"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://instagram.com" target="_blank" rel="noopener">
-                                    <img src="assets/images/icon-instagram.png" style="height: 48px;  width: 48px;" alt="insragram"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com" target="_blank" rel="noopener">
-                                    <img src="assets/images/icon-twitter.png" style="height: 48px;  width: 48px;" alt="twitter"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
+        </div>
     </footer>
+</body>
+</html>
